@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         coordinates = findViewById(R.id.coordinates);
 
         // заполнение массива координат выбранными числами, где чётные это координаты X, а нечётные координыты Y
-        coordinatesKeys = valueArrayRandom(); // создание и заполнение массвива рандомными значениями для координат
+        coordinatesKeys = valueArrayRandom(); // создание и заполнение массива рандомными значениями для координат
         Log.d("DEBUG", Arrays.toString(coordinatesKeys)); // проверка значений в массиве
-        
+
         // обработка касания TextView
         screen.setOnTouchListener(listener);
     }
